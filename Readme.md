@@ -1,7 +1,15 @@
 #canvasScramble
 ##Use canvas to completely scramble an image
 
-Simple usage
+Turn an image like this:
+
+![Original Image](colors.png)
+
+Into this:
+
+![Scrambled Image](scramble.png)
+
+##Simple usage
 ```javascript
 
 $("img").click(function(){
@@ -9,7 +17,7 @@ $("img").click(function(){
 })
 ```
 
-Slightly more advanced usage
+##Slightly more advanced usage
 ```javascript
 
 $("img").click(function(){
@@ -20,7 +28,7 @@ $("img").click(function(){
 })
 ```
 
-Config options
+##Config options
 ```javascript
 {
   debug:true, //output information to the console, performance metrics etc
