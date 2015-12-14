@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Canvas Example</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="jquery.canvasScramble.js"></script>
+    <script>
+      $(function(){
+
+        $("img").click(function(el){
+          $(this).canvasScramble({debug:false,displayInput:false});
+        })
+
+      });
+    </script>
+  </head>
+  <body>
+
+    <img src="colors.png" />
+
+  </body>
+</html>
